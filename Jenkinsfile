@@ -11,13 +11,13 @@ pipeline{
           }
 
       }
-//       stage('Build Docker image'){
-//         steps{
-//             script{
-//                 sh 'docker build -t d21it185rajbapodra/cldcimage .'
-//             }
-//         }
-//       }
+      stage('Build Docker image'){
+        steps{
+            script{
+                sh 'docker build -t yuvraj158/jenkinscicd .'
+            }
+        }
+      }
 //     stage('Push Docker image to Docker Hub'){
 //       steps{
 //         script{
